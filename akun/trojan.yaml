@@ -405,6 +405,62 @@ proxies:
       headers:
         Host: persiancdn.top
     udp: true
+  - name: جنگنده
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: humanity
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    sni: www.multiplydose.com
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.multiplydose.com
+    udp: true
+  - name: "@SHOP_GAMING1011`"
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: humanity
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    sni: www.multiplydose.com
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.multiplydose.com
+    udp: true
+  - name: ᴍɪɢᴀ
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: humanity
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    sni: www.calmloud.com
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmloud.com
+    udp: true
+  - name: "@MojeVazheh|@Radixvpn|@Anthony"
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: humanity
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    sni: www.calmloud.com
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmloud.com
+    udp: true
   - name: ">>@v2ray_configs_pool::US"
     server: 104.17.3.81
     port: 443
@@ -1090,60 +1146,4 @@ proxies:
       path: /
       headers:
         Host: abest.api-tel.xyz
-    udp: true
-  - name: جنگنده
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: humanity
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    sni: www.multiplydose.com
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.multiplydose.com
-    udp: true
-  - name: "@SHOP_GAMING1011`"
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: humanity
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    sni: www.multiplydose.com
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.multiplydose.com
-    udp: true
-  - name: ᴍɪɢᴀ
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: humanity
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    sni: www.calmloud.com
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmloud.com
-    udp: true
-  - name: "@MojeVazheh|@Radixvpn|@Anthony"
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: humanity
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    sni: www.calmloud.com
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmloud.com
     udp: true

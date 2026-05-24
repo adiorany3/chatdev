@@ -271,34 +271,6 @@ proxies:
       headers:
         Host: cold-dawn-9246.fly.dev
     udp: true
-  - name: ">>@v2nodes::US::US::US::US::US::US::US::US::US::US::US::US::US"
-    type: vmess
-    server: 104.17.3.81
-    port: 443
-    uuid: 96d21cfe-b264-4bf3-8349-fb076d40837e
-    alterId: 0
-    cipher: zero
-    tls: true
-    skip-cert-verify: true
-    servername: sanjose01.zgjok.com
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sanjose01.zgjok.com
-    udp: true
-  - name: ">>@v2ray_configs_pool::US::US::US::US::US::US::US::US::US::XX::US::XX::XX::XX::XX::US::XX::XX::XX::XX::XX::XX::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US::US"
-    type: vmess
-    server: 104.17.3.81
-    port: 443
-    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-    alterId: 0
-    cipher: zero
-    tls: true
-    skip-cert-verify: true
-    servername: 165.140.216.141
-    network: tcp
-    udp: true
   - name: 🇨🇦CA-23.162.200.227-6996
     type: vmess
     server: 104.17.3.81
